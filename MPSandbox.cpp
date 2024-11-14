@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <regex>
+
 
 using namespace std;
 vector<string> decomposer(string);
@@ -9,6 +11,8 @@ vector<string> decomposer(string);
 // global testers
 string case1 = "int x = 10, y = 8, z = -2;  x = x + y; y = x - y; x = x - y; z = x + y;\n";
 
+
+//regex expressions
 
 
 int main(){
@@ -21,6 +25,7 @@ int main(){
     }
 }
 
+// Decomposes input lines into code lines. 
 vector<string> decomposer(string input)
 {
     int j,i=0;
@@ -44,4 +49,23 @@ vector<string> decomposer(string input)
     return out;
 }
 
+string lineIdentifier(string line){
+    if()
+        return "declaration"; 
+    else if()
+        return "";
+    else if()
+        return "";
+    else if()
+        return "";
+    else if()
+        return "";
+    else if()
+        return "";
+    else{
+        cout <<"Error: Unidentified line refer below"<<endl;
+        cout << line << endl;
+    }
+}
 
+int lineCounter():
